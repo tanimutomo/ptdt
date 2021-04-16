@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "ptdt"
-version = "0.1.0"
+version = "0.1.2"
 description = "PyTorch Debug Tools"
 authors = ["tanimutomo <tanimutomo@gmail.com>"]
 license = "MIT"
-repository = "https://github.com/tanimutomo/watermark-distortions"
+repository = "https://github.com/tanimutomo/ptdt"
 packages = [
   { include = "ptdt/*.py" }
 ]
