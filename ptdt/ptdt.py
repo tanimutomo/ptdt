@@ -27,5 +27,6 @@ def _basic(t: torch.Tensor):
 
 
 def _stat(t: torch.Tensor):
+    t = t.to(torch.float64)
     return f"min={t.min().item():.4f} mean={t.mean().item():.4f} max={t.max().item():.4f}"
 
